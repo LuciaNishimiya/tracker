@@ -21,6 +21,7 @@ Before using this IP tracker on your web page, make sure to follow these setup s
 
 ```html
 <link rel="stylesheet" href="https://example.com/?family=Noto+Sans"
-importance="low"
+  media="print"
+  onload="this.media='all'"
 />
 ```
